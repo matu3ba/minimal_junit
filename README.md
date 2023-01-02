@@ -1,5 +1,6 @@
 ## Minimal juni xml creation based on the output of qtest:
 
+```
 <testsuite errors="0" failures="0" tests="6" name="SomeMessageUT">
   <properties>
     <property value="val" name="test system version"/>
@@ -13,6 +14,7 @@
   <testcase result="pass" name="cleanupTestCase"/>
   <system-err/>
 </testsuite>
+```
 
 For now, the properties are not possible to construct.
 Python 3.9 is required to have reliable working xml formatting.
